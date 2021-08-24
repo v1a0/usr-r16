@@ -2,6 +2,8 @@
 
 Simpe USR-R16 / USR-R16-T boards controller class
 
+# Example
+
 ```python
 from usrr16 import UsrR16
 
@@ -13,10 +15,12 @@ r16.turn_on(relay=2)
 r16.turn_off(relay=2)
 ```
 
+# Installation
 
 ```
 pip install usrr16
 ```
+
 
 > Based on [@wowks/USR-R16](https://github.com/wowks/USR-R16) and [xtodx/php-USR-R16](https://github.com/xtodx/php-USR-R16)
 > 
