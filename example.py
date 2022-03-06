@@ -40,5 +40,14 @@ def zigzag():
 
 
 r16 = UsrR16(host='192.168.0.23', port=8899, password='admin')
+# r16 = UsrR16(host='192.168.0.27')
+
+street()
+print(r16.state(1))
+
+r16.turn_off(1)
+print(r16.state(1))
+print(r16.state(2))
+
 r16.turn_off_all()
 
