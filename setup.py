@@ -18,7 +18,7 @@ setup(
     author_email='contact@v1a0.dev',
     url="https://github.com/v1a0/usr-r16",
     download_url=f"https://github.com/V1A0/usr-r16/archive/refs/tags/v{usrr16.__version__}.tar.gz",
-    keywords=['usr-r16', 'usr-r16-t', 'usrr16', 'usrr16t', 'lonhand', 'api'],
+    keywords=['relay', 'usr-r16', 'usr-r16-t', 'usrr16', 'usrr16t', 'lonhand', 'api'],
     install_requires=[],
     classifiers=[
         'Development Status :: 3 - Alpha',

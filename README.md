@@ -13,6 +13,12 @@ r16.turn_off_all()
 r16.invert(relay=1)
 r16.turn_on(relay=2)
 r16.turn_off(relay=2)
+
+r16.turn_on(3)
+print(r16.state(3)) # True
+
+r16.turn_off(3)
+print(r16.state(3)) # False
 ```
 
 # Installation
@@ -21,7 +27,8 @@ r16.turn_off(relay=2)
 pip install usrr16
 ```
 
-
+> Contributors: @v1a0, @horga83
+>
 > Based on [@wowks/USR-R16](https://github.com/wowks/USR-R16) and [xtodx/php-USR-R16](https://github.com/xtodx/php-USR-R16)
 > 
-> thank you
+> Thank you!
